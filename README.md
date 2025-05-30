@@ -1,5 +1,5 @@
 # Bash For Windows
-语言：[简体中文](https://github.com/shufeng2012/Bash-For-Windows/README.md) [English](https://github.com/shufeng2012/Bash-For-Windows/README-english.md)
+语言：[简体中文](https://github.com/shufeng2012/Bash-For-Windows/blob/main/README.md) [English](https://github.com/shufeng2012/Bash-For-Windows/blob/main/README-english.md)
 ## 前言
 不知大家有没有这样的烦恼：自己习惯Windows的界面，或者是因为Windows的生态强于Linux，从而才选择Windows。但是却不习惯`dir` `del`等指令，想要用Linux那种简洁明了的指令——反正我是有这种烦恼。
 
