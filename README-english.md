@@ -11,48 +11,6 @@ That's why I developed this program: **to enable the use of bash commands on Win
 We welcome your support, suggestions for improvements, or direct code contributions. Thank you!
 
 ## Known Bugs Due to Technical Limitations
-The following issues are currently unresolved:
-* Unable to display `Bad command` type error prompts
-    * Relevant code snippet:
-    ```python
-    def run(command: list) -> str:
-    '''
-    Command execution function
-    '''
-    PATH = ".\\bin\\bin"
-    if not command:
-        return ""  # Handle empty commands
-
-    first_arg = command[0]
-    # Determine if path-style command
-    is_path_cmd = (
-        first_arg.startswith(".\\") or
-        first_arg.startswith("..") or
-        (len(first_arg) > 1 and first_arg[1] == ":")
-    )
-
-    try:
-        if is_path_cmd:
-            ran = subprocess.run(
-                command,
-                shell=True,
-                text=True,
-                capture_output=True
-            )
-        else:
-            # Search for executable in PATH
-            cmd_path = os.path.join(PATH, first_arg)
-            full_cmd = [cmd_path] + command[1:]
-            ran = subprocess.run(
-                full_cmd,
-                shell=True,
-                text=True,
-                capture_output=True
-            )
-
-        return ran.stdout if ran.returncode == 0 else ran.stderr
-    except Exception as e:
-        return str(e)
-    ```
+~~The following issues are currently unresolved:~~
 
 ***Development Ongoing...***

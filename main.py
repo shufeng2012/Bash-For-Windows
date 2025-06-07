@@ -10,6 +10,7 @@ while command != "exit":
     command = input()
     command_list = functions.command_operate(command)
     command_out = functions.run(command_list)
+    print(command_out)
 else:
     print("Bye!")
     input("Press enter to continue:")
