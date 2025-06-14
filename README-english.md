@@ -1,4 +1,5 @@
 # Bash For Windows
+Language:[简体中文](https://github.com/shufeng2012/Bash-For-Windows/blob/main/README.md)   [English](https://github.com/shufeng2012/Bash-For-Windows/blob/main/README-english.md)
 ## Introduction
 This is a `Bash` that *can run on ***Windows****.
 This program is suitable for:Developers ==switching from `Linux` to `Windows`==, or==Windows users who prefer using Bash== (like me).

@@ -1,4 +1,5 @@
 # Bash For Windows
+语言：[简体中文](https://github.com/shufeng2012/Bash-For-Windows/blob/main/README.md)   [English](https://github.com/shufeng2012/Bash-For-Windows/blob/main/README-english.md)
 ## 介绍
 这是一个*可以在****Windows****上运行的* `Bash`。
 本程序适合==从`Linux`系统切换至`Windows`系统==的开发者，或者是==习惯用Bash的Windows用户==（例如我）。
