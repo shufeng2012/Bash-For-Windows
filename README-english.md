@@ -1,16 +1,29 @@
-Documentation:
 # Bash For Windows
-Language: [简体中文](https://github.com/shufeng2012/Bash-For-Windows/blob/main/README.md) [English](https://github.com/shufeng2012/Bash-For-Windows/blob/main/README-english.md)
-
-## Preface
-Do you ever feel frustrated when using Windows? Perhaps you're accustomed to the Windows interface, or maybe you choose Windows because its ecosystem is stronger than Linux's. However, you might find yourself uncomfortable with commands like `dir` and `del`, longing for the concise Linux-style commands—this is exactly the frustration I've experienced.
-
-That's why I developed this program: **to enable the use of bash commands on Windows!**
-> Note: I am an elementary school student with limited technical skills. Some code references AI-generated content, and I appreciate your understanding.
-
-We welcome your support, suggestions for improvements, or direct code contributions. Thank you!
-
-## Known Bugs Due to Technical Limitations
-~~The following issues are currently unresolved:~~
-
-***Development Ongoing...***
+## Introduction
+This is a `Bash` that *can run on ***Windows****.
+This program is suitable for:Developers ==switching from `Linux` to `Windows`==, or==Windows users who prefer using Bash== (like me).
+> Note: Since I'm just an elementary school student with limited technical skills, there might be some bugs in certain features. Your understanding is appreciated.
+## Usage Guide
+1. Download the desired version from `/version`;
+2. Extract the compressed file;
+3. Launch `main.exe` inside;
+4. To exit, enter `exit`.
+## Version Details
+|Version|Updates|
+|---|---|
+|Review v0.0.1|Basic framework implemented|
+|……|……|
+## Known Bugs
+~~List of known bugs~~
+## Future Plans
+* [x] Develop basic framework
+* [ ] Improve `Linux` command support
+* [ ] Implement syntax highlighting
+* [ ] Add multi-distro `Linux` themes (e.g., `Ubuntu`, `Arch`, `Kali`, etc.)
+***
+## Side Notes
+My CSDN account: [Link](https://blog.csdn.net/2401_83116349)
+My Bilibili account: [Link](https://space.bilibili.com/3493120790498019)
+**Your support is greatly appreciated—feel free to help fix bugs. Thank you!!!!!**
+***
+***Under continuous development…***
