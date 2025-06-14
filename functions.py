@@ -1,6 +1,6 @@
-import os
-import socket
-import subprocess
+import os                       # 基本系统操作
+import socket                   # 提供gethostname函数原型
+import subprocess               # 提供run函数原型
 
 def start() -> None:
     '''
@@ -9,7 +9,7 @@ def start() -> None:
     cwd = os.getcwd()           # 当前用户所在目录
     user = os.getlogin()        # 当前用户名
     name = socket.gethostname() # 当前计算机名
-    print("\n%s@%s\n%s $ " %(user,name,cwd),end='')            # 输出提示
+    print("\n%s@%s\n%s $ "%(user, name, cwd), end='')            # 输出提示
 
 def command_operate(command: str) -> list:
     '''
@@ -30,7 +30,7 @@ def run(command: list) -> str:
     is_path_cmd = (
         first_arg.startswith(".\\") or
         first_arg.startswith("..") or
-        (len(first_arg) > 1 and first_arg[1] == ":")
+        (len(first_arg)>1 and first_arg[1]==":")
     )
 
     try:
