@@ -15,7 +15,8 @@ This program is suitable for:Developers ==switching from `Linux` to `Windows`==,
 |Review v0.0.1|Basic framework implemented|
 |……|……|
 ## Known Bugs
-~~List of known bugs~~
+List of known bugs
+* Only available in run under `.\bin\bin`
 ## Future Plans
 * [x] Develop basic framework
 * [ ] Improve `Linux` command support

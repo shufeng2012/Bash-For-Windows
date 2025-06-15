@@ -1,7 +1,8 @@
 import sys                      # 提供exit函数原型
 import functions
 
-print("Bash For Windows")
+print("Bash For Windows Review v0.0.1")
+print("Github address:https://github.com/shufeng2012/Bash-For-Windows")
 command_list = None
 command_out = None
 functions.start()
