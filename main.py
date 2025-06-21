@@ -3,10 +3,10 @@ import functions
 
 print("Bash For Windows Review v0.0.1")
 print("Github address:https://github.com/shufeng2012/Bash-For-Windows")
-command_list = None
-command_out = None
+command_list: list = None
+command_out: str = None
 functions.start()
-command = input()               # 获取命令
+command: str = input()               # 获取命令
 if command == "exit":           # 判断是否退出
     print("Bye!")
     input("Press enter to continue:")
