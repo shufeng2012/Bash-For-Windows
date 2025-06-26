@@ -13,6 +13,7 @@ This program is suitable for:Developers ==switching from `Linux` to `Windows`==,
 |Version|Updates|
 |---|---|
 |Review v0.0.1|Basic framework implemented|
+|v1.0.1|The first official version, partial highlighting is implemented|
 |……|……|
 ## Known Bugs
 List of known bugs
