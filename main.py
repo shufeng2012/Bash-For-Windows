@@ -1,8 +1,10 @@
 import sys                      # 提供exit函数原型
 import functions
+from colorama import Fore, Back          # 高亮
 
-print("Bash For Windows Review v0.0.1")
-print("Github address:https://github.com/shufeng2012/Bash-For-Windows")
+print(f"{functions.color("Bash For Windows ", Fore.LIGHTWHITE_EX, Back.RED)}{functions.color("v1.0.1", Fore.LIGHTWHITE_EX, Back.BLUE)}")
+print(f"Github address:{functions.color("https://github.com/shufeng2012/Bash-For-Windows",Fore.LIGHTCYAN_EX)}")
+print(f"{functions.color("Thank you for use this ", Fore.YELLOW)}{functions.color("procedure", Fore.LIGHTBLACK_EX, Back.YELLOW)}{functions.color("!!!", Fore.YELLOW)}")
 command_list: list = None
 command_out: str = None
 functions.start()

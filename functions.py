@@ -1,6 +1,12 @@
 import os                       # 基本系统操作
 import socket                   # 提供gethostname函数原型
 import subprocess               # 提供run函数原型
+from colorama import Fore, Back, Style          # 高亮
+
+def color(text: str, fg: str, bg: str = None) -> str:
+    colored_text = f"{fg}{text}{Style.RESET_ALL}"
+
+    return colored_text if bg is None else bg + colored_text        # 返回处理后的文本
 
 def start() -> None:
     '''
@@ -9,7 +15,7 @@ def start() -> None:
     cwd: str = os.getcwd()           # 当前用户所在目录
     user: str = os.getlogin()        # 当前用户名
     name: str = socket.gethostname() # 当前计算机名
-    print("\n%s@%s\n%s $ "%(user, name, cwd), end='')            # 输出提示
+    print("\n%s@%s\n%s $ "%(color(user, Fore.BLUE), color(name, Fore.GREEN), color(cwd, Fore.MAGENTA)), end='')            # 输出提示
 
 def command_operate(command: str) -> list:
     '''

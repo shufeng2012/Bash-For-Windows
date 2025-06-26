@@ -19,6 +19,7 @@ List of known bugs
 * Only available in run under `.\bin\bin`
 ## Future Plans
 * [x] Develop basic framework
+* [X] Implement highlighting
 * [ ] Improve `Linux` command support
 * [ ] Implement syntax highlighting
 * [ ] Add multi-distro `Linux` themes (e.g., `Ubuntu`, `Arch`, `Kali`, etc.)
